@@ -79,7 +79,7 @@ void Question3() {
   print("\n--------------------------------------------------\n");
 
   double Salary = ReadNumber("Enter your salary: ").toDouble();
-  int TotalHours = ReadNumber("Enter total hours: ");
+  int TotalHours = ReadNumber("Enter Total hours: ");
   const double hourlyRate = 0.12;
   double totalSalary = Salary * hourlyRate * TotalHours;
   print("Total Salary : $totalSalary");
